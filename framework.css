@@ -1,6 +1,7 @@
 :root {
      --main-color: #00ADB5;
      --txt-color: #222222;
+     --txt-2-color: #545F7A;
 }
 /* Coler */
 .c-white {
@@ -8,6 +9,12 @@
 }
 .c-2222 {
      color: var(--txt-color);
+}
+.c-txt-2 {
+     color: var(--txt-2-color);
+}
+.c-main {
+     color: var(--main-color);
 }
 .bg-main {
      background-color: var(--main-color)
@@ -104,6 +111,9 @@
 .gap-5 {
      gap: 5px;
 }
+.flex-1{
+     flex: 1;
+}
 
 
 /* padding */
@@ -118,11 +128,20 @@
 .m-in-50 {
      margin-inline: 50px;
 }
+.m-block-20 {
+margin-block: 20px;
+}
 .m-30 {
      margin: 30px;
 }
 .mt-50 {
      margin-top: 50px;
+}
+.mb-30 {
+     margin-bottom: 30px;
+}
+.mb-10 {
+     margin-bottom: 10px;
 }
 .mb-5 {
      margin-bottom: 5px;
@@ -142,9 +161,14 @@
      height: 40px;
      cursor: pointer;
 }
+.img-24 {
+     height: 20px;
+     width: 20px;
+}
 
 /* text */
 
 .c-txt {
      text-align: center;
 }
+
