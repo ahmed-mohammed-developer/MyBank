@@ -1,13 +1,21 @@
 :root {
-     --main-color: #00ADB5
+     --main-color: #00ADB5;
+     --txt-color: #222222;
 }
 /* Coler */
 .c-white {
      color: white;
 }
+.c-2222 {
+     color: var(--txt-color);
+}
 .bg-main {
      background-color: var(--main-color)
 }
+.bg-white {
+     background-color: white;
+}
+
 /* Font */
 .fs-28 {
      font-size: 28px;
@@ -65,6 +73,12 @@
 .d-flex {
      display: flex;
 }
+.d-inline-flex {
+     display: inline-flex;
+}
+.flex-d {
+     flex-direction: column;
+}
 .f-c {
      position: absolute;
      bottom: 0;
@@ -77,6 +91,9 @@
 }
 .align-center {
      align-items: center;
+}
+.gap-20 {
+     gap: 20px;
 }
 .gap-15 {
      gap: 15px;
@@ -96,13 +113,34 @@
 
 
 
-/* Margin */
 
+/* Margin */
+.m-in-50 {
+     margin-inline: 50px;
+}
+.m-30 {
+     margin: 30px;
+}
+.mt-50 {
+     margin-top: 50px;
+}
+.mb-5 {
+     margin-bottom: 5px;
+}
 
 
 /* box */ 
 .h-500 {
      height: 500px;
+}
+.w-70 {
+     width: 70%;
+}
+.btn {
+     background-color: #00ADB5;
+     border-radius: 10px;
+     height: 40px;
+     cursor: pointer;
 }
 
 /* text */

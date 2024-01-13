@@ -1,5 +1,12 @@
 @import url("components/container.css");
 @import url("components/helpers.css");
 @import url("components/home.css");
+@import url("components/Rectangle.css");
+
+
+
+body {
+     background-color: #eee;
+}
 
 
