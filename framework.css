@@ -137,6 +137,9 @@ margin-block: 20px;
 .mt-50 {
      margin-top: 50px;
 }
+.mt-30 {
+     margin-top: 30px;
+}
 .mb-30 {
      margin-bottom: 30px;
 }
@@ -166,6 +169,18 @@ margin-block: 20px;
      width: 20px;
 }
 
+.card-bank {
+     width: 238px;
+     height: 136px;
+}
+
+.over-c {
+     overflow: hidden;
+
+}
+.d-inlin {
+     display: inline;
+}
 /* text */
 
 .c-txt {
