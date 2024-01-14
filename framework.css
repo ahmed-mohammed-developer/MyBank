@@ -2,6 +2,7 @@
      --main-color: #00ADB5;
      --txt-color: #222222;
      --txt-2-color: #545F7A;
+     --background: #F9FAFE;
 }
 /* Coler */
 .c-white {
@@ -21,6 +22,9 @@
 }
 .bg-white {
      background-color: white;
+}
+.bg-f9 {
+     background-color: var(--background);
 }
 
 /* Font */
@@ -86,12 +90,16 @@
 .flex-d {
      flex-direction: column;
 }
+
 .f-c {
      position: absolute;
      bottom: 0;
 }
 .justify-between {
      justify-content: space-between;
+}
+.justify-evenly {
+     justify-content: space-evenly;
 }
 .justify-center {
      justify-content: center;
@@ -120,6 +128,9 @@
 .p-10 {
      padding: 10px;
 }
+.pt-20 {
+     padding-top: 20px;
+}
 
 
 
@@ -140,6 +151,12 @@ margin-block: 20px;
 .mt-30 {
      margin-top: 30px;
 }
+.mt-2{
+     margin-top: 2px;
+}
+.mt-0 {
+     margin-top: 0;
+}
 .mb-30 {
      margin-bottom: 30px;
 }
@@ -148,6 +165,9 @@ margin-block: 20px;
 }
 .mb-5 {
      margin-bottom: 5px;
+}
+.mb-0 {
+     margin-bottom: 0;
 }
 
 
@@ -180,6 +200,15 @@ margin-block: 20px;
 }
 .d-inlin {
      display: inline;
+}
+.rad-10 {
+     border-radius: 10px;
+}
+.rad-16 {
+     border-radius: 16px 16px 0 0;
+}
+.rad-50 {
+     border-radius: 50%;
 }
 /* text */
 
